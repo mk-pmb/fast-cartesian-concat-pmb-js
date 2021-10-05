@@ -1,0 +1,38 @@
+{ "name": "fast-cartesian-concat-pmb",
+  "version": "0.1.0",
+  "description": "Calculate a small-ish list of combinations using `fast-cartesian`, then concatenate each result.",
+  "keywords": [
+    "cartesian product",
+    "cartesian",
+    "combinatorial",
+    "product",
+    "strings"
+  ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/fast-cartesian-concat-pmb-js/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/fast-cartesian-concat-pmb-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/fast-cartesian-concat-pmb-js/issues"
+  },
+  "contributors": [],
+
+  "private": false, "license": "ISC",
+
+  "type": "module",
+  "exports": "cc.mjs",
+  "main": "cc.mjs",
+  "scripts": { "test": "elp && nodemjs test/all.mjs" },
+  "directories": { "test": "test" },
+  "eslintConfig": { "extends": "nodejs-pmb" },
+
+  "dependencies": {},
+  "devDependencies": {
+  },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
