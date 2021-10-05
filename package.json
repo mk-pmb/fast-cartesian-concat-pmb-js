@@ -22,15 +22,18 @@
 
   "private": false, "license": "ISC",
 
-  "type": "module",
-  "exports": "cc.mjs",
-  "main": "cc.mjs",
-  "scripts": { "test": "elp && nodemjs test/all.mjs" },
+  "main": "cc.js",
+  "scripts": { "test": "elp && nodejs test/all.js" },
   "directories": { "test": "test" },
   "eslintConfig": { "extends": "nodejs-pmb" },
 
-  "dependencies": {},
+  "dependencies": {
+    "fast-cartesian-latest-cjs-pmb": "^0.211005.0"
+  },
   "devDependencies": {
+    "equal-pmb": "^0.1.24",
+    "eslint-config-nodejs-pmb": "^0.2.2",
+    "eslint-pretty-pmb": "^1.0.2"
   },
 
 
